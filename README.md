@@ -14,6 +14,10 @@ The entire process, from data curation to iterative model improvement, was desig
 * The progressive results of the generated images after Epoch 1, Epoch 5, Epoch 10, Epoch 15, Epoch 20 are show **`progressive`** notebook.
 * The training and test loss logged is in training.txt file.
 
+* All 20 functional Generator and Discriminator checkpoints of the model are available on the Hugging Face Hub for further analysis and use.
+
+* **Model Hub Link:** [**amannagrawall002/conditionalGanForFaceGeneration**](https://huggingface.co/amannagrawall002/conditionalGanForFaceGeneration/tree/main)
+
 ## Qualitative Results: Inference on Unseen Faces
 
 The final model from epoch 20 demonstrates a strong capability to reconstruct facial identity from an embedding, capturing key features like head pose, facial structure, and general coloration.
